@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q5{
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+}
+.one{
+  width: 100px;
+  height: 100px;
+  background-color: #ffefd3;
+  position: relative;
+  top:40px;
+  left:200px;
+  line-height:100px;
+  text-align:center;
+  vertical-align:middle;
+  z-index: 1;
+}
 /* 回答はここに書いてね */
