@@ -31,27 +31,27 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
-            <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <p class="q8__title smallwrapper">ー small ー</p>
+            <div class="common small">common</div>
+            <div class="error small">error</div>
+            <div class="disabled small">disabled</div>
+            <div class="shadow small">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
-            <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <p class="q8__title middlewrapper">ー middle ー</p>
+            <div class="common middle">common</div>
+            <div class="error middle">error</div>
+            <div class="disabled middle">disabled</div>
+            <div class="shadow middle">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
-            <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <p class="q8__title largewrapper">ー large ー</p>
+            <div class="common large">common</div>
+            <div class="error large">error</div>
+            <div class="disabled large">disabled</div>
+            <div class="shadow large">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,58 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form>
+              <div class="excercise">
+                <div class="formtytle">Form Excercise</div>
+                <div class="entryform clearfix">
+                  <div class="nameentry entry">
+                    <label>
+                      <p class="item_tytle">名前<span class="require">*</span></p>
+                      <input type="text" name="name" id="name" class="text_entry item_entry" required>
+                    </label>
+                  </div>
+                  <div class="sexentry entry">
+                    <p class="item_tytle">性別</p>
+                    <label><input type="radio" name="sex" id="male" value="male" class="item_entry radio_entry">男性</label>
+                    <label><input type="radio" name="sex" id="female" value="female" class="item_entry radio_entry">女性</label>
+                  </div>
+                  <div class="countryentry entry">
+                    <label>
+                      <p class="item_tytle">出身</p>
+                        <div class="select">
+                          <select class="item_entry select_entry" name="country" id="country">
+                            <option value="tokyo">東京</option>
+                            <option value="saitama">埼玉</option>
+                            <option value="chiba">千葉</option>
+                            <option value="kanagawa">神奈川</option>
+                          </select>
+                        </div>
+                    </label>
+                  </div>
+                  <div class="mailentry entry">
+                    <label>
+                      <p class="item_tytle">Eメール<span class="require">*</span></p>
+                      <input type="text" name="mail" id="mail" placeholder="ex)hoge@gmail.com" class="text_entry item_entry" required>
+                    </label>
+                  </div>
+                  <div class="telentry entry">
+                    <label>
+                      <p class="item_tytle">電話番号</p>
+                      <input type="text" name="tel" id="tel" placeholder="ex)08012345678" class="text_entry item_entry">
+                    </label>
+                  </div>
+                  <div class="age">
+                    <label><input type="checkbox" name="age" id="age" class="agecheck" value="checked">20歳以上です</label>
+                  </div>
+                  <div class="subbutton">
+                    <input type="submit" value="送信" class="button">
+                  </div>
+                </div>
+                <div class="memoform clearfix">
+                  <label><textarea name="memo" id="memo" placeholder="なにかあれば入力してください" class="memo text_entry item_entry"></textarea></label>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
