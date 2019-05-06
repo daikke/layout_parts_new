@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.fukidashi{
+  margin: auto;
+  width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border: 5px solid #222;
+  border-radius: 30px;
+  position: relative;
+}
+.fukidashi:before{
+  content: "";
+  display: block;
+  border:20px solid transparent;
+  border-top: 20px solid #222;
+  position: absolute;
+  top: 100%;
+}
+.fukidashi::after{
+  content: "";
+  display: block;
+  border:20px solid transparent;
+  border-top: 20px solid #fff;
+  position: absolute;
+  top: 96%;
+  left: 20px;
+}
 /* 回答はここに書いてね */
