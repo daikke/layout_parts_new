@@ -8,16 +8,19 @@
 }
 .white_box{
   background-color: #eff3f4;
-  margin: auto;
-  width: 940px;
+  margin: auto o;
+  padding: 20px;
+  width: 900px;
 }
 .white_box__blue_box{
   background-color: #3274ae;
   float: left;
   margin-left: 20px;
-  margin-top: 20px;
   padding: 20px;
   width: 230px;
+}
+.white_box .white_box__blue_box:first-child{
+  margin-left: 0px;
 }
 .white_box__blue_box__content{
   background-color: #eaf4ff;
