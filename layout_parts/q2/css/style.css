@@ -1,36 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.whitebox{
-  background-color: #eff3f4;
-  width: 940px;
-  margin: auto;
-}
-.box1{
-  padding:20px;
-}
-.photo1{
-  float: left;
-  margin: 0px 20px 10px 0px;
-}
-.content1{
-  font-size: 18px;
-  line-height: 22px;
-}
-.box2{
-  padding: 20px;
-}
-.photo2{
-  float: right;
-  margin: 0px 0px 10px 20px;
-}
-.content2{
-  font-size: 18px;
-  line-height: 22px;
-}
 .clearfix:after {
   display: block;
   content: "";
   clear: both;
+}
+.white_box{
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: auto;
+  width: 900px;
+}
+.white_box .white_box__content{
+  overflow: hidden;
+}
+.white_box__content__img-left{
+  float: left;
+  margin: 0px 20px 10px 0px;
+}
+.white_box__content__img-right{
+  float: right;
+  margin: 0px 0px 10px 20px;
+}
+.white_box__content__text{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
 }
 /* 回答はここに書いてね */
