@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.imgtransition{
+.transition{
   width: 500px;
   height: 333px;
   margin: auto;
@@ -9,13 +9,13 @@
   cursor: pointer;
   position: relative;
 }
-.background{
+.transition__background{
   transition: 0.5s;
 }
-.imgtransition:hover .background{
+.transition:hover .transition__background{
   transform: scale(1.5);
 }
-.contenttext{
+.transition__content__text{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -25,16 +25,16 @@
   box-sizing: border-box;
   word-break: break-all;
 }
-.contentwrap{
+.transition__content{
 	width:100%;
 	height:100%;
 	position: absolute;
-    bottom: -100%;
+  bottom: -100%;
 	left:0;
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
 	transition: 0.5s;
 }
-.imgtransition:hover .contentwrap{
+.transition:hover .transition__content{
 	bottom: 0;
 }
 .anime{
