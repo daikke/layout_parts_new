@@ -1,37 +1,25 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.common{
-  background-color:#00bcd4;
+.btn{
   color: #fff;
   display: inline-block;
   margin-left: 10px;
   text-align: center;
   cursor: pointer;
+}
+.common{
+  background-color:#00bcd4;
 }
 .error{
   background-color:#ff4081;
-  color: #fff;
-  display: inline-block;
-  margin-left: 10px;
-  text-align: center;
-  cursor: pointer;
 }
 .disabled{
   background-color:#e5e5e5;
-  color: #fff;
-  display: inline-block;
-  margin-left: 10px;
-  text-align: center;
-  cursor: pointer;
 }
 .shadow{
   background-color:#fff;
   color: #222;
-  display: inline-block;
-  margin-left: 10px;
-  text-align: center;
-  cursor: pointer;
   box-shadow: 0 1px 6px rgba(0,0,0,.12);
 }
 .small{
@@ -52,37 +40,47 @@
   font-size: 24px;
   line-height: 38px;
 }
-.excercise{
+.form{
   width: 700px;
   background-color: #ECF1F2;
   overflow: hidden;
   padding: 20px;
-  margin: auto;
+  margin: 0 auto;
 }
-.entryform{
-  width: 300px;
-  float: left;
+.form__title{
+  margin-bottom: 20px;
+  position: relative;
 }
-.memoform{
-  width: 390px;
-  float: left;
+.form__title::before{
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 1px;
+background-color: #ccc;
+content: "";
 }
-.clearfix::after{
-    display: block;
-    content: "";
-    clear: both;
-}
-.entry{
-  margin-top:20px;
-}
-.entry:first-child{
-  margin-top:0px;
-}
-.formtytle{
+.form__title__text{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
   background-color: #ECF1F2;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
+}
+.form__entry{
+  width: 300px;
+  float: left;
+}
+.form__entry__item{
+  margin-top:20px;
+}
+.form__entry__item:first-child{
+  margin-top:0px;
+}
+.item_wrapper{
+  float: right;
+  width: 180px;
 }
 .item_tytle{
   width: 100px;
@@ -92,7 +90,10 @@
   padding-top: 5px;
 }
 .text_entry{
+  padding: 0;
+  background: none;
   border: none;
+  border-radius: 0;
   font-size: 16px;
   outline: none;
   -webkit-appearance: none;
@@ -106,10 +107,6 @@
   line-height: 12px;
   box-sizing: border-box;
 }
-.text_entry:focus{
-  box-shadow: 0 0 7px #00BCD4;
-}
-/*全くわからん*/
 .radio_entry{
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -125,26 +122,37 @@
   position: relative;
 }
 .radio_entry:checked:after{
-    display: block;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    content: "";
-  	width: 8px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  content: "";
+  width: 8px;
 	height: 8px;
-    background: #00BCD4;
-    -webkit-border-radius: 12px;
-    border-radius: 12px;
-}/*全くわからん*/
+  background: #00BCD4;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+.memoform{
+  width: 390px;
+  float: left;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.text_entry:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
 .memo{
   width: 100%;
   height: 200px;
   padding: 10px;
 }
-/*全くわからん*/
-.select{    
+.select{
     position: relative;}
-.select:after{  
+.select:after{
   display: block;
   position: absolute;
   top: 4px;
@@ -156,7 +164,7 @@
   transform: rotate(45deg);
   content: "";
   pointer-events: none;
-}/*全くわからん*/
+}
 .select_entry{
   border: none;
   outline: none;
@@ -175,7 +183,7 @@
   text-align: right;
   margin-top: 20px;
   margin-right: 20px;
-}/*全くわからん*/
+}
 .age{
   text-align: right;
   margin-top: 20px;
@@ -217,16 +225,16 @@
   border-bottom: 3px solid #00BCD4;
   transform: rotate(45deg);
   content: '';
-}/*全くわからん*/
+}
 .button {
   display: inline-block;
-  border-radius: 5px; 
-  font-size: 16px;  
-  cursor: pointer; 
-  padding: 0px 10px; 
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0px 10px;
   background-color: #00BCD4;
   color: #ffffff;
-  line-height: 26px; 
+  line-height: 26px;
   border: none;
 }
 .require{
