@@ -6,76 +6,70 @@
   content: "";
   clear: both;
 }
-.float_wrapper{
+.q7-1__float{
   overflow: hidden;
 }
-.float_text1{
+.q7-1__float__text{
   float: left;
   width:225px;
   box-sizing: border-box;
 }
-.float_text2{
-  float: left;
-  width:225px;
+.q7-1__float .q7-1__float__text:last-child{
   margin-left: 50px;
-  box-sizing: border-box;
 }
-.q7table{
+.q7-2__table{
   display: table;
-  border-collapse: separate;
 }
-.q7tablecell1{
+.q7-2__table__cell{
   display: table-cell;
   width: 225px;
   vertical-align: middle;
 }
-.q7tablecell2{
-  display: table-cell;
-  width: 225px;
+.q7-2__table .q7-2__table__cell:last-child{
   padding-left: 50px;
-  vertical-align: middle;
 }
-.inlinetext1{
-  margin-left: 0;
+.q7-3__inline{
+  font-size: 0px;
+}
+.q7-3__inline__text{
+  box-sizing: border-box;
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
-  box-sizing: border-box;
   width: 225px;
 }
-.inlinetext2{
-  margin-left: 45px;
-  display: inline-block;
-  font-size: 16px;
-  width: 225px;
-  vertical-align: middle;
-  box-sizing: border-box;
-}/*わからなかった*/
-.flexwrapper{
-  display: flex;
-  justify-content: space-around; 
+.q7-3__inline__text:last-child{
+  margin-left: 50px;
+}
+.q7-4__flex{
   align-items: flex-end ;
+  display: flex;
+  justify-content: space-around;
 }
-.flextext{
+.q7-4__flex__text{
   width: 225px;
-  vertical-align: bottom;
   box-sizing: border-box ;
 }
-.flextext:first-child{
-  width: 225px;
+.q7-5__inline_flex{
+  font-size: 0;
 }
-.inlineflexbox{
-  overflow: hidden;
+.q7--margin .q7__box {
 }
-.inlinetext3{
+.q7-5__inline_flex__inline {
+  display: inline-block;
+  vertical-align: top;
   width: 300px;
-  float: left;
 }
-.flextext2{
+.q7-5__inline_flex__flex {
+  display: inline-block;
   width: 100%;
-  float: right;
   margin-left: -300px;
-  padding-left: 300px;
+  padding-left: 350px;
   box-sizing: border-box;
+  vertical-align: top;
 }
+.q7-5__inline_flex__text{
+  font-size: 16px;
+}
+
 /* 回答はここに書いてね */
