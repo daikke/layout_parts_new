@@ -1,57 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.whitebox{
-  width: 940px;
-  background-color: #eff3f4;
-  margin: auto;
-  padding: auto;
-}
 .clearfix:after {
   display: block;
   content: "";
   clear: both;
 }
-.bluebox1{
-  width:230px;
-  background-color: #3274ae;
-  padding:20px;
-  float: left;
-  margin: 20px;
+.white_box{
+  background-color: #eff3f4;
+  margin: auto;
+  width: 940px;
 }
-.contentbox1{
+.white_box__blue_box{
+  background-color: #3274ae;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 230px;
+}
+.white_box__blue_box__content{
   background-color: #eaf4ff;
   border: #022336 solid 10px;
-  padding:20px;
   font-size: 16px;
   line-height: 16px;
-}
-.bluebox2{
-  width:230px;
-  background-color: #3274ae;
-  padding:20px;
-  float: left;
-  margin: 20px;
-}
-.contentbox2{
-  background-color: #eaf4ff;
-  border: #022336 solid 10px;
-  padding:20px;
-  font-size: 16px;
-  line-height: 16px;
-}
-.bluebox3{
-  width:230px;
-  background-color: #3274ae;
-  padding:20px;
-  float: left;
-  margin: 20px;
-}
-.contentbox3{
-  background-color: #eaf4ff;
-  border: #022336 solid 10px;
-  padding:20px;
-  font-size: 16px;
-  line-height: 16px;
+  padding: 20px;
 }
 /* 回答はここに書いてね */
