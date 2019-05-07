@@ -1,62 +1,62 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6__box .boxp{
-  background-color: #e6f2ff;
-  width: 90px;
-  padding: 10px 0px;
-  margin: auto;
+.q5-1__text_align{
   text-align: center;
 }
-.text{
-  text-align: center;
-}
-.text .textp{
+.q5-1__text_align__text{
   background-color: #e6f2ff;
   display: inline-block;
-  width: 90px;
   padding: 10px 0px;
+  width: 90px;
 }
-.q6table{
+.q5-1__margin{
+  background-color: #e6f2ff;
+  margin: auto;
+  padding: 10px 0px;
+  text-align: center;
+  width: 90px;
+}
+.q5-2__table{
   display: table;
 }
-.q6table .q6tablecell{
+.q5-2__table__cell{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-.q6table .q6tablecell .q6tabletext{
+.q5-2__table__cell__text{
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
-.q6flex{
+.q5-2__flex{
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.flextext{
+.q5-2__flex__text{
   background-color: #fff;
   padding: 10px;
 }
-.posi_fle_wrapper{
+.q5-2__position__stable{
   position: relative;
 }
-.posi_fle_text{
+.q5-2__position__stable__text{
+  margin: auto;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto;
 }
-.posi_sta_wrapper{
+.q5-2__position__flexible{
   position: relative;
 }
-.posi_sta_text{
+.q5-2__position__flexible__text{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translate(-50%,-50%);
 }
 /* 回答はここに書いてね */
