@@ -89,10 +89,6 @@ content: "";
 .form__entry__item:first-child{
   margin-top:0px;
 }
-.item_wrapper{
-  float: right;
-  width: 180px;
-}
 .item_tytle{
   width: 100px;
   float: left;
@@ -132,7 +128,7 @@ content: "";
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-.memoform{
+.form__memo{
   width: 390px;
   float: left;
 }
@@ -174,12 +170,12 @@ content: "";
   line-height: 12px;
   box-sizing: border-box;
 }
-.subbutton{
+.form__sub{
   text-align: right;
   margin-top: 20px;
   margin-right: 20px;
 }
-.age{
+.form__age{
   text-align: right;
   margin-top: 20px;
   margin-right: 20px;
