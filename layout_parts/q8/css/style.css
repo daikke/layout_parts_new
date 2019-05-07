@@ -47,6 +47,17 @@
   padding: 20px;
   margin: 0 auto;
 }
+.input_init{
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 .form__title{
   margin-bottom: 20px;
   position: relative;
@@ -90,15 +101,6 @@ content: "";
   padding-top: 5px;
 }
 .text_entry{
-  padding: 0;
-  background: none;
-  border: none;
-  border-radius: 0;
-  font-size: 16px;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   width: 160px;
   padding: 5px;
   border-radius: 3px;
@@ -108,9 +110,6 @@ content: "";
   box-sizing: border-box;
 }
 .radio_entry{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   width:14px;
   height:14px;
   border:1px solid #ccc;
@@ -130,8 +129,8 @@ content: "";
   width: 8px;
 	height: 8px;
   background: #00BCD4;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 .memoform{
   width: 390px;
@@ -151,7 +150,8 @@ content: "";
   padding: 10px;
 }
 .select{
-    position: relative;}
+    position: relative;
+}
 .select:after{
   display: block;
   position: absolute;
@@ -166,11 +166,6 @@ content: "";
   pointer-events: none;
 }
 .select_entry{
-  border: none;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   width: 160px;
   padding: 5px;
   border-radius: 3px;
@@ -190,9 +185,6 @@ content: "";
   margin-right: 20px;
 }
 .agecheck{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   width:20px;
   height:20px;
   border:1px solid #ccc;
