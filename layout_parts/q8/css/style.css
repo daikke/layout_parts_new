@@ -106,6 +106,10 @@ content: "";
   box-sizing: border-box;
 }
 .radio_entry{
+  display: none;
+}
+.radio_box{
+  display: inline-block;
   width:14px;
   height:14px;
   border:1px solid #ccc;
@@ -115,12 +119,14 @@ content: "";
   background-color: #fff;
   vertical-align: middle;
   position: relative;
+  margin: 5px;
+  margin-left: 0px;
 }
-.radio_entry:checked:after{
+.radio_entry:checked +.radio_box:after{
   display: block;
   position: absolute;
-  top: 2px;
-  left: 2px;
+  top: 3px;
+  left: 3px;
   content: "";
   width: 8px;
 	height: 8px;
@@ -180,29 +186,22 @@ content: "";
   margin-top: 20px;
   margin-right: 20px;
 }
-.agecheck{
-  width:20px;
-  height:20px;
+.age_check{
+  display: none;
+}
+.age_box{
+  display: inline-block;
+  width:16px;
+  height:16px;
   border:1px solid #ccc;
-  background:transparent;
   cursor: pointer ;
   background-color: #fff;
   vertical-align: middle;
   position: relative;
-  margin-right: 10px;
-}
-.agecheck:before {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  margin-top: -9px;
-  background-color: #fff;
-  border: 1px solid #ccc;
   content: '';
+  margin: 0 5px 5px 0;
 }
-.agecheck:checked:after{
+.age_check:checked + .age_box:after{
   position: absolute;
   top: 50%;
   left: 6px;
@@ -225,7 +224,16 @@ content: "";
   line-height: 26px;
   border: none;
 }
+.button:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
 .require{
   color: #F00;
 }
+
+/*spanタグを後列に追加後inputを不可視にする。
+送信ボタンクリック時の色反転
+for属性でも可能
+*/
 /* 回答はここに書いてね */
