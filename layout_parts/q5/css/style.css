@@ -9,7 +9,7 @@
   width: 500px;
 }
 .number{
-  font: bold;
+  font-weight: bold;
   height: 100px;
   line-height:100px;
   position: absolute;
