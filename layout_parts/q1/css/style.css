@@ -8,7 +8,7 @@
 }
 .white_box{
   background-color: #eff3f4;
-  margin: auto o;
+  margin: 0 auto;/*0  auto*/
   padding: 20px;
   width: 900px;
 }
